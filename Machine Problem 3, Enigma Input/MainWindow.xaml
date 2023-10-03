@@ -7,10 +7,230 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" KeyUp="Window_KeyUp">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="449*"/>
-            <ColumnDefinition Width="352*"/>
-        </Grid.ColumnDefinitions>
+
+        <Label 
+            x:Name="lbl_0"
+            Content="0" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="489,227,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+            x:Name="lbl_spcl1"
+            Content="-" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="537,227,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+            x:Name="lbl_spcl2"
+            Content="=" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="585,227,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+            x:Name="lbl_return"
+            Content="Return" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="633,227,0,0" 
+            VerticalAlignment="Top" 
+            Width="97"
+        />
+        <Label 
+            x:Name="lbl_back"
+            Content="Back" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="661,272,0,0" 
+            VerticalAlignment="Top" 
+            Width="67"
+        />
+        <Label 
+            x:Name="lbl_shiftlock"
+            Content="Shift Lock" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="619,317,0,0" 
+            VerticalAlignment="Top" 
+            Width="111"
+        />
+        <Label 
+            x:Name="lbl_space"
+            Content="Spacebar" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="600,362,0,0" 
+            VerticalAlignment="Top" 
+            Width="131"
+        />
+        <Label 
+            x:Name="lbl_p" 
+            Content="p" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="469,272,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+           x:Name="lbl_spcl3" 
+            Content="[" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="517,272,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+            x:Name="lbl_spcl4" 
+            Content="]" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="565,272,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+            x:Name="lbl_spcl5" 
+            Content="\" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="613,272,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+            x:Name="lbl_l" 
+            Content="l" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="475,317,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+            x:Name="lbl_spcl6" 
+            Content=":" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="523,317,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+            x:Name="lbl_spcl7"
+            Content="'" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="571,317,0,0" 
+            VerticalAlignment="Top" 
+            Width="43"
+        />
+        <Label 
+            x:Name="lbl_spcl8"
+            Content="," 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="453,362,0,0" 
+            VerticalAlignment="Top" 
+            Width="44"
+        />
+        <Label 
+            x:Name="lbl_spcl9"
+            Content="." 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="502,362,0,0" 
+            VerticalAlignment="Top" 
+            Width="44"
+        />
+        <Label 
+            x:Name="lbl_spcl10"
+            Content="/" 
+            VerticalContentAlignment="Center"
+            HorizontalContentAlignment="Center"
+            BorderBrush="Black"
+            BorderThickness="1"
+            HorizontalAlignment="Left" 
+            Height="40" Margin="551,362,0,0" 
+            VerticalAlignment="Top" 
+            Width="44"
+        />
+        <Label Content="Input Text" 
+               FontWeight="Bold"
+               VerticalContentAlignment="Center"
+               HorizontalContentAlignment="Center"
+               HorizontalAlignment="Left" 
+               Height="29" 
+               Margin="344,10,0,0" 
+               VerticalAlignment="Top" 
+               Width="70"
+        />
+        <Label 
+            x:Name="lbl_input" 
+            Content=""            
+            HorizontalAlignment="Left" 
+            Height="160" 
+            Margin="12,44,0,0" 
+            VerticalAlignment="Top" 
+            Width="772" Grid.ColumnSpan="2"
+        />
         <Label 
             x:Name="lbl_1" 
             Content="1" 
@@ -115,93 +335,9 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="441,227,0,0" 
+            Height="40" Margin="440,227,0,0" 
             VerticalAlignment="Top" 
-            Width="43" Grid.ColumnSpan="2"
-        />
-        <Label 
-            x:Name="lbl_0"
-            Content="0" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="40,227,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_spcl1"
-            Content="-" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="88,227,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_spcl2"
-            Content="=" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="136,227,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_return"
-            Content="Return" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="184,227,0,0" 
-            VerticalAlignment="Top" 
-            Width="97" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_back"
-            Content="Back" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="220,272,0,0" 
-            VerticalAlignment="Top" 
-            Width="62" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_shiftlock"
-            Content="Shift Lock" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="170,317,0,0" 
-            VerticalAlignment="Top" 
-            Width="111" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_space"
-            Content="Spacebar" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="150,362,0,0" 
-            VerticalAlignment="Top" 
-            Width="131" Grid.Column="1"
+            Width="43"
         />
         <Label 
             x:Name="lbl_w"
@@ -211,7 +347,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="92,272,0,0" 
+            Height="40" Margin="86,272,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -223,7 +359,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="140,272,0,0" 
+            Height="40" Margin="134,272,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -235,7 +371,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="188,272,0,0" 
+            Height="40" Margin="182,272,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -247,7 +383,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="236,272,0,0" 
+            Height="40" Margin="230,272,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -259,7 +395,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="284,272,0,0" 
+            Height="40" Margin="278,272,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -271,7 +407,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="332,272,0,0" 
+            Height="40" Margin="326,272,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -282,7 +418,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="379,272,0,0" 
+            Height="40" Margin="374,272,0,0" 
             VerticalAlignment="Top" 
             Width="42"
         />
@@ -294,57 +430,9 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="428,272,0,0" 
+            Height="40" Margin="421,272,0,0" 
             VerticalAlignment="Top" 
-            Width="43" Grid.ColumnSpan="2"
-        />
-        <Label 
-            x:Name="lbl_p" 
-            Content="p" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="28,272,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
-        />
-        <Label 
-           x:Name="lbl_spcl3" 
-            Content="[" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="76,272,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_spcl4" 
-            Content="]" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="124,272,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_spcl5" 
-            Content="\" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="172,272,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
+            Width="43"
         />
         <Label 
             x:Name="lbl_q" 
@@ -354,7 +442,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="44,272,0,0" 
+            Height="40" Margin="38,272,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -367,7 +455,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="92,317,0,0" 
+            Height="40" Margin="91,317,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -379,7 +467,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="140,317,0,0" 
+            Height="40" Margin="139,317,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -391,7 +479,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="188,317,0,0" 
+            Height="40" Margin="187,317,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -403,7 +491,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="236,317,0,0" 
+            Height="40" Margin="235,317,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -415,7 +503,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="284,317,0,0" 
+            Height="40" Margin="283,317,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -427,7 +515,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="332,317,0,0" 
+            Height="40" Margin="331,317,0,0" 
             VerticalAlignment="Top" 
             Width="43"
         />
@@ -438,8 +526,8 @@
             HorizontalContentAlignment="Center"
             BorderBrush="Black"
             BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="379,317,0,0" 
+            HorizontalAlignment="Center" 
+            Height="40" Margin="0,317,0,0" 
             VerticalAlignment="Top" 
             Width="42"
         />
@@ -451,45 +539,9 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="428,317,0,0" 
+            Height="40" Margin="427,317,0,0" 
             VerticalAlignment="Top" 
-            Width="43" Grid.ColumnSpan="2"
-        />
-        <Label 
-            x:Name="lbl_l" 
-            Content="l" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="28,317,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_spcl6" 
-            Content=":" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="76,317,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_spcl7"
-            Content="'" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="124,317,0,0" 
-            VerticalAlignment="Top" 
-            Width="43" Grid.Column="1"
+            Width="43"
         />
         <Label 
             x:Name="lbl_tab"
@@ -499,9 +551,9 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="44,317,0,0" 
+            Height="40" Margin="37,317,0,0" 
             VerticalAlignment="Top" 
-            Width="43"
+            Width="49"
         />
         <Label 
             x:Name="lbl_z"
@@ -511,7 +563,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="118,362,0,0" 
+            Height="40" Margin="112,362,0,0" 
             VerticalAlignment="Top" 
             Width="44"
         />
@@ -523,7 +575,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="166,362,0,0" 
+            Height="40" Margin="161,362,0,0" 
             VerticalAlignment="Top" 
             Width="44"
         />
@@ -535,7 +587,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="214,362,0,0" 
+            Height="40" Margin="210,362,0,0" 
             VerticalAlignment="Top" 
             Width="44"
         />
@@ -547,7 +599,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="262,362,0,0" 
+            Height="40" Margin="259,362,0,0" 
             VerticalAlignment="Top" 
             Width="44"
         />
@@ -559,7 +611,7 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="310,362,0,0" 
+            Height="40" Margin="308,362,0,0" 
             VerticalAlignment="Top" 
             Width="44"
         />
@@ -570,7 +622,7 @@
             HorizontalContentAlignment="Center"
             BorderBrush="Black"
             BorderThickness="1" 
-            Height="40" Margin="358,362,46,0" 
+            Height="40" Margin="357,362,399,0" 
             VerticalAlignment="Top"
         />
         <Label 
@@ -586,42 +638,6 @@
             Width="42"
         />
         <Label 
-            x:Name="lbl_spcl8"
-            Content="," 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="6,362,0,0" 
-            VerticalAlignment="Top" 
-            Width="44" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_spcl9"
-            Content="." 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="54,362,0,0" 
-            VerticalAlignment="Top" 
-            Width="44" Grid.Column="1"
-        />
-        <Label 
-            x:Name="lbl_spcl10"
-            Content="/" 
-            VerticalContentAlignment="Center"
-            HorizontalContentAlignment="Center"
-            BorderBrush="Black"
-            BorderThickness="1"
-            HorizontalAlignment="Left" 
-            Height="40" Margin="102,362,0,0" 
-            VerticalAlignment="Top" 
-            Width="44" Grid.Column="1"
-        />
-        <Label 
             x:Name="lbl_shift"
             Content="Shift" 
             VerticalContentAlignment="Center"
@@ -629,28 +645,9 @@
             BorderBrush="Black"
             BorderThickness="1"
             HorizontalAlignment="Left" 
-            Height="40" Margin="44,362,0,0" 
+            Height="40" Margin="37,362,0,0" 
             VerticalAlignment="Top" 
             Width="70"
-        />
-        <Label Content="Input Text" 
-               FontWeight="Bold"
-               VerticalContentAlignment="Center"
-               HorizontalContentAlignment="Center"
-               HorizontalAlignment="Left" 
-               Height="29" 
-               Margin="344,10,0,0" 
-               VerticalAlignment="Top" 
-               Width="70"
-        />
-        <Label 
-            x:Name="lbl_input" 
-            Content=""            
-            HorizontalAlignment="Left" 
-            Height="160" 
-            Margin="12,44,0,0" 
-            VerticalAlignment="Top" 
-            Width="772" Grid.ColumnSpan="2"
         />
 
     </Grid>
